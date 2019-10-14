@@ -1,0 +1,29 @@
+.content {
+        width: 85%;
+        min-height: 750px;
+        min-width: 600px;
+        > * {padding-left: 30px;};
+        background-color: $secondary-color;
+         ul {
+           padding-left: 45px;
+        li {
+        font-size: 0.85rem;
+            }
+        }
+         h1 {
+        font-size: 62px;
+        -webkit-margin-before: 0;
+        padding-top: 40px;
+        }
+       p {
+        width: 55%;
+        min-width: 550px;
+        }
+       a {
+        color: inherit;
+        text-decoration: none;
+        }
+       a:hover {
+        text-decoration: underline;
+      }
+    }
